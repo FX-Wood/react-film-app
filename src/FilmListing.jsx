@@ -5,7 +5,7 @@ class FilmListing extends Component {
     render() {
         var allFilms = this.props.films.map((film, i) => {
             return (
-                <FilmRow film={film} />
+                <FilmRow key={i} film={film} />
             )
         })
         return (
