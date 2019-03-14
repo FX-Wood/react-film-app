@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="filmLibrary">
+        <div className="film-library">
           <FilmListing films={TMDB.films}/>
         </div>
           <FilmDetails films={TMDB.films}/>
