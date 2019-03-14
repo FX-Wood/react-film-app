@@ -10,7 +10,7 @@ class FilmRow extends Component {
     }
     handleDetailsClick(e) {
         e.stopPropagation()
-        console.log('handling details click')
+        console.log('fetching details for ' + this.props.film.title)
     }
     render() {
         return (
