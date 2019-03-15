@@ -32,7 +32,6 @@ function FilmDetails(props) {
             </p>
         </div>
     )
-
     
     const details = props.film.id ? filmInfo : emptyInfo
     return (
