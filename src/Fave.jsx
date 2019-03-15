@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 function Fave(props) {
     console.log('Fave rendering')
-    // check state to see if movie is in faves
     let addRemove = props.isFave?'remove_from_queue' : 'add_to_queue';
     return (
         <div 
